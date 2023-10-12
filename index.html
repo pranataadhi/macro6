@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUSTBUSTER</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg px-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#carouselExampleSlidesOnly">DUSTBUSTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#tentang-kami">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- home -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide position-relative" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active data-bs-interval=" 1000">
+          <img src="img/home.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/home2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/home3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <div class="text-home position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-center">Neat inside,<br> unblemished outdoors</h1>
+      </div>
+      <div class="wa position-fixed">
+        <a href="#">
+          <img src="img/whatsapp.png" alt="">
+        </a>
+      </div>
+    </div>
+    <!-- home -->
+    <!-- About -->
+    <div class="container mt-5 py-5" id="tentang-kami">
+      <div class="row d-flex">
+        <div class="col text-center">
+          <img src="img/about.png" class="mx-auto mt-5">
+        </div>
+        <div class="col">
+          <h1>DustBustersOnline <br>Home & BuildingCares</h1>
+          <p>Selamat datang di DustBustersOnline, mitra terpercaya Anda untuk semua kebutuhan
+            pembersihan rumah. Kami menyediakan layanan pembersihan yang
+            terpercaya untuk menciptakan lingkungan tinggal yang bersih dan terjaga
+            dengan sempurna. Dengan tim ahli kami, Anda dapat menikmati waktu luang
+            dan kebebasan tanpa khawatir tentang pembersihan rumah. <br>
+            <br>
+            Dengan DustBustersOnline, Anda akan mendapatkan kebersihan maksimal setiap waktu.
+            Tim pembersih profesional kami dilatih secara cermat untuk menyapu,
+            mengepel, membersihkan debu, mencuci jendela, dan tugas-tugas
+            pembersihan lainnya. Kami menyadari bahwa setiap rumah memiliki
+            kebutuhan yang unik, itulah mengapa kami menawarkan paket pembersihan
+            yang dapat disesuaikan sesuai dengan preferensi Anda. Keahlian dan efisiensi
+            kami akan memberikan hasil pembersihan yang menyeluruh dan
+            mengesankan. Kepuasan Anda adalah prioritas utama kami, dan kami
+            berkomitmen untuk memberikan layanan terbaik yang melampaui harapan
+            Anda. Hubungi DustBustersOnline hari ini untuk menciptakan lingkungan tinggal yang
+            segar, nyaman, dan terawat dengan sempurna.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <!-- Layanan -->
+    <div class="layanan mt-5 mb-5 py-5" id="layanan">
+      <h1 class="text-center">Layanan</h1>
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 10rem;">
+              <a href="#layanan" onclick="apart()">
+                <img src="img/apart.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apartermen</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 10rem;">
+              <a href="#layanan" onclick="kost()">
+                <img src="img/kost.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kost</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 10rem;">
+              <a href="#layanan" onclick="rumah()">
+                <img src="img/rumah.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">rumah</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 10rem;">
+              <a href="#layanan" onclick="kantor()">
+                <img src="img/kantor.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kantor</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 10rem;">
+              <a href="#caffe" onclick="caffe()">
+                <img src="img/caffe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Caffe</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 10rem;">
+              <a href="#layanan" onclick="outsourcing()">
+                <img src="img/outdoor.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Outsourcing</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container paket-apart" id="div_apart">
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Express (30-60mnt)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Standar (60-120mnt)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan balkon</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+              <li>Jasa membersihkan interior rumah</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Premium(120-180menit)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan balkon</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+              <li>Jasa membersihkan interior rumah</li>
+              <li>Spesial treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker
+                dan interior liquid)</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa detailing</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Platinum(180-240 menit)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan balkon</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+              <li>Jasa membersihkan interior rumah</li>
+              <li>Spesial treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker
+                dan interior liquid)</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa detailing</li>
+              <li>Jasa cuci perabot dapur</li>
+              <li>Jasa mengatasi dan anti sumbatan wastafel dan toilet</li>
+            </div>
+          </div>
+        </div>
+        <div class="container paket-kost" id="div_kost">
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Premium(120-180menit)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior rumah</li>
+              <li>Spesial treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker
+                dan interior liquid)</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa detailing</li>
+            </div>
+          </div>
+        </div>
+        <div class="container paket-rumah" id="div_rumah">
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Premium(120-180menit)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior rumah</li>
+              <li>Spesial treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker
+                dan interior liquid)</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa detailing</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Deep cleaning(Jasa membersihkan rumah pasca renovasi, bencana alam, acara khusus maupun pindah rumah)
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior rumah</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+              <li>Jasa memindahkan barang</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa membersihkan ruangan menggunakan vacuum cleaner</li>
+              <li>Special treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker dan interior
+                liquid)</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Taman
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa memotong rumput liar dan pohon</li>
+              <li>Jasa merapikan dan memotong tanaman</li>
+              <li>Jasa membuang sampah, daun kering dan sampah</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Akomodasi
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa membuang sampah</li>
+              <li>Jasa memindahkan barang</li>
+            </div>
+          </div>
+        </div>
+        <div class="container paket-kantor" id="div_kantor">
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Standar
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Premium
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+              <li>Jasa memindahkan barang</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa membersihkan ruangan menggunakan vacuum cleaner</li>
+              <li>Special treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker dan interior
+                liquid)</li>
+            </div>
+          </div>
+        </div>
+        <div class="container paket-kantor" id="div_caffe">
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Standar
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <h5>
+                Premium
+              </h5>
+            </div>
+            <div class="col-8 text-start">
+              <li>Jasa menyapu dan mengepel</li>
+              <li>Jasa membersihkan kamar mandi</li>
+              <li>Jasa membersihkan kaca</li>
+              <li>Jasa membuang sampah</li>
+              <li>Jasa membersihkan interior</li>
+              <li>Jasa membersihkan sarang laba-laba dan debu</li>
+              <li>Jasa memindahkan barang</li>
+              <li>Jasa membersihkan filter air conditioner dan exhaust</li>
+              <li>Jasa membersihkan ruangan menggunakan vacuum cleaner</li>
+              <li>Special treatment (mengatasi jamur kaca, jamur kerak, karat, jamur putih, bekas sticker dan interior
+                liquid)</li>
+            </div>
+          </div>
+        </div>
+        <div class="container paket-kost" id="div_outsourcing">
+          <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 text-start">
+              <p>Kami juga menyediakan jasa outsourcing untuk kebutuhan kebersihan kantor maupun usaha Anda dengan
+                detail sebagai berikut :</p>
+              <li>Satu bulan kerja terdiri 26 hari</li>
+              <li>Jam kerja / hari 8 jam</li>
+              <li>1 jam istirahat</li>
+              <li>Lama kontrak kerja adalah 6 bulan</li>
+              <li>Disediakan seragam pegawai, alat bersih-bersih dan trolley oleh pihak kami</li>
+              <p class="text-end">*Syarat dan ketentuan berlaku sesuai kebutuhan</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Layanan -->
+    <!-- Galeri -->
+    <div class="galeri text-center py-5" id="galeri">
+      <h1>Galeri</h1>
+      <div class="kolom-galeri">
+        <div class="kolom-1">
+          <img src="galeri/galeri1.jpg" alt="">
+          <img src="galeri/galeri5.jpg" alt="">
+          <img src="galeri/galeri9.png" alt="">
+        </div>
+        <div class="kolom-2">
+          <img src="galeri/galeri2.jpg" alt="">
+          <img src="galeri/galeri6.jpg" alt="">
+          <img src="galeri/galeri10.jpg" alt="">
+        </div>
+        <div class="kolom-3">
+          <img src="galeri/galeri3.jpg" alt="">
+          <img src="galeri/galeri7.jpg" alt="">
+          <img src="galeri/galeri11.jpg" alt="">
+        </div>
+        <div class="kolom-4">
+          <img src="galeri/galeri4.jpg" alt="">
+          <img src="galeri/galeri8.jpg" alt="">
+          <img src="galeri/galeri13.jpg" alt="">
+          <img src="galeri/galeri12.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Galeri -->
+    <!-- Review -->
+    <div class="review mt-5">
+      <h1>Review</h1>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="komen-container">
+              <div class="komen-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="img/profileb.jpeg" alt="">
+                  </div>
+                  <div class="profile-name">
+                    <strong>Jamal</strong>
+                  </div>
+                </div>
+                <div class="bintang">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+              </div>
+              <div class="komen-bot">
+                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="komen-container">
+              <div class="komen-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="img/profileb.jpeg" alt="">
+                  </div>
+                  <div class="profile-name">
+                    <strong>Jamal</strong>
+                  </div>
+                </div>
+                <div class="bintang">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+              </div>
+              <div class="komen-bot">
+                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col">
+            <div class="komen-container">
+              <div class="komen-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="img/profileb.jpeg" alt="">
+                  </div>
+                  <div class="profile-name">
+                    <strong>Jamal</strong>
+                  </div>
+                </div>
+                <div class="bintang">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+              </div>
+              <div class="komen-bot">
+                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="komen-container">
+              <div class="komen-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="img/profileb.jpeg" alt="">
+                  </div>
+                  <div class="profile-name">
+                    <strong>Jamal</strong>
+                  </div>
+                </div>
+                <div class="bintang">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+              </div>
+              <div class="komen-bot">
+                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buttom mt-5">
+        <button type="button" class="btn btn-secondary">Selengkapnya</button>
+      </div>
+    </div>
+    <!-- Review -->
+    <!-- form -->
+    <div class="formulir mt-5">
+      <div class="form-container">
+        <div class="form-kiri">
+          <h3>Silahkan isi formulir berikut:</h3>
+          <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">No whatsapp</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Jenis tempat</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Rumah</option>
+                <option value="1">Kost</option>
+                <option value="2">Apartermen</option>
+                <option value="3">Kantor</option>
+                <option value="4">Caffe</option>
+                <option value="5">Outsourcing</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Alamat</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Jenis Layanan</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Tanggal</label>
+              <input type="date" class="form-control" id="exampleFormControlInput1">
+            </div>
+          </form>
+        </div>
+        <div class="form-kanan ">
+          <img src="galeri/form.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- form -->
+    <!-- kontak kami -->
+    <div class="kontak" id="kontak">
+      <div class="kontak-container">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4977.200513362118!2d116.11994516250358!3d-8.596411288324566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf44cb1027df%3A0xc338eb882faaa7ea!2sJl.%20Urip.S%2C%20Pagesangan%20Tim.%2C%20Kec.%20Mataram%2C%20Kota%20Mataram%2C%20Nusa%20Tenggara%20Bar.!5e0!3m2!1sid!2sid!4v1697086389779!5m2!1sid!2sid"
+            width="500" height="350" style="border:1;"></iframe>
+        </div>
+        <div class="kontak-data">
+          <div class="title">
+            <h2>Kontak kami</h2>
+          </div>
+          <div class="info">
+            <div class="info-kiri">
+              <h5>Alamat</h5>
+              <p>Jalan Urip.S, Pagesangan Timur, Kecamatan Mataram, Kota Mataram, Nusa Tenggara Barat 83127, Indonesia
+              </p>
+            </div>
+            <div class="info-kanan">
+              <h5>kontak</h5>
+              <i class='bx bxs-phone'>087859635080</i>
+              <i class='bx bx-envelope'>dustbusteronline@gmail.com</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- kontak kami -->
+  </main>
+  <footer class="text-center">
+    <h6>@Copy right 2023</h6>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
