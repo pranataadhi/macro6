@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans&display=swap"
     rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -107,7 +108,7 @@
       <div class="container text-center mt-5">
         <div class="row">
           <div class="col">
-            <div class="card" style="width: 10rem;">
+            <div class="card" style="width: 10rem;" id="cardApart">
               <a href="#layanan" onclick="apart()">
                 <img src="img/apart.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -117,7 +118,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 10rem;">
+            <div class="card" style="width: 10rem;" id="cardKost">
               <a href="#layanan" onclick="kost()">
                 <img src="img/kost.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -127,7 +128,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 10rem;">
+            <div class="card" style="width: 10rem;" id="cardRumah">
               <a href="#layanan" onclick="rumah()">
                 <img src="img/rumah.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -137,7 +138,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 10rem;">
+            <div class="card" style="width: 10rem;" id="cardKantor">
               <a href="#layanan" onclick="kantor()">
                 <img src="img/kantor.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -147,7 +148,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 10rem;">
+            <div class="card" style="width: 10rem;" id="cardCaffe">
               <a href="#caffe" onclick="caffe()">
                 <img src="img/caffe.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -157,7 +158,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 10rem;">
+            <div class="card" style="width: 10rem;" id="cardOut">
               <a href="#layanan" onclick="outsourcing()">
                 <img src="img/outdoor.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -171,7 +172,9 @@
           <div class="row mt-5">
             <div class="col-4">
               <h5>
-                Express (30-60mnt)
+                Express (30-60mnt) <br>
+                <br>
+                Rp. 75.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -185,6 +188,9 @@
             <div class="col-4">
               <h5>
                 Standar (60-120mnt)
+                <br>
+                <br>
+                Rp. 125.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -201,6 +207,9 @@
             <div class="col-4">
               <h5>
                 Premium(120-180menit)
+                <br>
+                <br>
+                Rp. 175.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -221,6 +230,9 @@
             <div class="col-4">
               <h5>
                 Platinum(180-240 menit)
+                <br>
+                <br>
+                Rp. 225.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -245,6 +257,9 @@
             <div class="col-4">
               <h5>
                 Premium(120-180menit)
+                <br>
+                <br>
+                Rp. 75.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -265,6 +280,9 @@
             <div class="col-4">
               <h5>
                 Premium(120-180menit)
+                <br>
+                <br>
+                Rp. 125.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -283,6 +301,9 @@
             <div class="col-4">
               <h5>
                 Deep cleaning(Jasa membersihkan rumah pasca renovasi, bencana alam, acara khusus maupun pindah rumah)
+                <br>
+                <br>
+                Rp. 225.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -303,6 +324,9 @@
             <div class="col-4">
               <h5>
                 Taman
+                <br>
+              <br>
+              Rp. 75.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -315,6 +339,9 @@
             <div class="col-4">
               <h5>
                 Akomodasi
+                <br>
+                <br>
+                Rp. 75.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -328,6 +355,9 @@
             <div class="col-4">
               <h5>
                 Standar
+                <br>
+                <br>
+                Rp. 125.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -343,6 +373,9 @@
             <div class="col-4">
               <h5>
                 Premium
+                <br>
+                <br>
+                Rp. 175.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -365,6 +398,9 @@
             <div class="col-4">
               <h5>
                 Standar
+                <br>
+                <br>
+                Rp. 125.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -380,6 +416,9 @@
             <div class="col-4">
               <h5>
                 Premium
+                <br>
+                <br>
+                Rp. 175.000
               </h5>
             </div>
             <div class="col-8 text-start">
@@ -408,7 +447,7 @@
               <li>1 jam istirahat</li>
               <li>Lama kontrak kerja adalah 6 bulan</li>
               <li>Disediakan seragam pegawai, alat bersih-bersih dan trolley oleh pihak kami</li>
-              <p class="text-end">*Syarat dan ketentuan berlaku sesuai kebutuhan</p>
+              <p class="text-end">*Syarat, harga dan ketentuan berlaku sesuai kebutuhan</p>
             </div>
             <div class="col-2"></div>
           </div>
@@ -446,114 +485,208 @@
     <!-- Galeri -->
     <!-- Review -->
     <div class="review mt-5">
-      <h1>Review</h1>
-
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col">
-            <div class="komen-container">
-              <div class="komen-top">
-                <div class="profile">
-                  <div class="profile-img">
-                    <img src="img/profileb.jpeg" alt="">
-                  </div>
-                  <div class="profile-name">
-                    <strong>Jamal</strong>
+      <h1 class="text-center">Review</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col">
+                  <div class="komen-container">
+                    <div class="komen-top">
+                      <div class="profile">
+                        <div class="profile-img">
+                          <img src="img/profileb.jpeg" alt="">
+                        </div>
+                        <div class="profile-name">
+                          <strong>Romi</strong>
+                        </div>
+                      </div>
+                      <div class="bintang">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                      </div>
+                    </div>
+                    <div class="komen-bot">
+                      <p class="content">Saya sangat khawatir tentang kebersihan kantor saya, tetapi DUSTBUSTER telah menjadikan pekerjaan ini menjadi sangat mudah. Tim mereka selalu memberikan layanan yang konsisten dan sangat profesional. Kami sangat merekomendasikan jasa mereka kepada bisnis lain
+                      </p>
+                    </div>
+                    <a class="btn btn-primary mt-2" onclick="readMore(this)">Read more</a>
                   </div>
                 </div>
-                <div class="bintang">
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                </div>
-              </div>
-              <div class="komen-bot">
-                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="komen-container">
-              <div class="komen-top">
-                <div class="profile">
-                  <div class="profile-img">
-                    <img src="img/profileb.jpeg" alt="">
+          <div class="swiper-slide">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col">
+                  <div class="komen-container">
+                    <div class="komen-top">
+                      <div class="profile">
+                        <div class="profile-img">
+                          <img src="img/ppReview2.jpeg" alt="">
+                        </div>
+                        <div class="profile-name">
+                          <strong>Bayu</strong>
+                        </div>
+                      </div>
+                      <div class="bintang">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                      </div>
+                    </div>
+                    <div class="komen-bot">
+                      <p class="content">
+                        Saya sangat sibuk dengan pekerjaan, dan DUSTBUSTER telah membantu saya mengatasi beban tugas rumah tangga. Mereka selalu menjaga kualitas layanan tinggi dan menjadwalkan pembersihan sesuai dengan kebutuhan saya. Saya benar-benar merasa lega!
+                      </p>
+                    </div>
+                    <a class="btn btn-primary mt-2" onclick="readMore(this)">Read more</a>
                   </div>
-                  <div class="profile-name">
-                    <strong>Jamal</strong>
-                  </div>
-                </div>
-                <div class="bintang">
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
                 </div>
               </div>
-              <div class="komen-bot">
-                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col">
+                  <div class="komen-container">
+                    <div class="komen-top">
+                      <div class="profile">
+                        <div class="profile-img">
+                          <img src="img/ppReview3.jpg" alt="">
+                        </div>
+                        <div class="profile-name">
+                          <strong>Devand</strong>
+                        </div>
+                      </div>
+                      <div class="bintang">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                      </div>
+                    </div>
+                    <div class="komen-bot">
+                      <p class="content">
+                        Saya sangat puas dengan layanan cleaning service yang diberikan oleh layanan ini. Mereka bekerja dengan teliti dan profesional. Rumah saya belum pernah sebersih ini sebelumnya. Saya pasti akan merekomendasikan mereka kepada teman dan keluarga.
+                      </p>
+                    </div>
+                    <a class="btn btn-primary mt-2" onclick="readMore(this)">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col">
+                  <div class="komen-container">
+                    <div class="komen-top">
+                      <div class="profile">
+                        <div class="profile-img">
+                          <img src="img/ppReview4.jpg" alt="">
+                        </div>
+                        <div class="profile-name">
+                          <strong>Sastrawan</strong>
+                        </div>
+                      </div>
+                      <div class="bintang">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                      </div>
+                    </div>
+                    <div class="komen-bot">
+                      <p class="content">
+                        Cleaning service yang luar biasa! Rumah saya selalu bersih dan segar setiap kali layanan ini datang. Mereka selalu tepat waktu dan berkualitas tinggi. Saya sangat merekomendasikan mereka kepada siapa pun yang mencari jasa pembersihan profesional.
+                      </p>
+                    </div>
+                    <a class="btn btn-primary mt-2" onclick="readMore(this)">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col">
+                  <div class="komen-container">
+                    <div class="komen-top">
+                      <div class="profile">
+                        <div class="profile-img">
+                          <img src="img/ppReview5.jpg" alt="">
+                        </div>
+                        <div class="profile-name">
+                          <strong>Dimas</strong>
+                        </div>
+                      </div>
+                      <div class="bintang">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                      </div>
+                    </div>
+                    <div class="komen-bot">
+                      <p class="content">
+                        Saya sangat puas dengan layanan dari DUSTBUSTER. Mereka selalu datang tepat waktu, dengan tim yang ramah dan profesional. Rumah saya bersih bersinar setiap kali mereka selesai, dan saya merasa sangat lega bahwa saya dapat mempercayakan mereka untuk merawat rumah saya. Terima kasih!
+                      </p>
+                    </div>
+                    <a class="btn btn-primary mt-2" onclick="readMore(this)">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col">
+                  <div class="komen-container">
+                    <div class="komen-top">
+                      <div class="profile">
+                        <div class="profile-img">
+                          <img src="img/ppReview6.jpg" alt="">
+                        </div>
+                        <div class="profile-name">
+                          <strong>Ari</strong>
+                        </div>
+                      </div>
+                      <div class="bintang">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                      </div>
+                    </div>
+                    <div class="komen-bot">
+                      <p class="content">
+                        Wow! Saya benar-benar terkesan dengan DUSTBUSTER. Mereka sangat teliti dalam membersihkan setiap sudut rumah saya. Mereka juga sangat ramah dan mudah bekerja sama. Saya tidak pernah berpikir bahwa rumah saya bisa sebersih ini!
+                      </p>
+                    </div>
+                    <a class="btn btn-primary mt-2" onclick="readMore(this)">Read more</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container mt-3">
-        <div class="row">
-          <div class="col">
-            <div class="komen-container">
-              <div class="komen-top">
-                <div class="profile">
-                  <div class="profile-img">
-                    <img src="img/profileb.jpeg" alt="">
-                  </div>
-                  <div class="profile-name">
-                    <strong>Jamal</strong>
-                  </div>
-                </div>
-                <div class="bintang">
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                </div>
-              </div>
-              <div class="komen-bot">
-                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="komen-container">
-              <div class="komen-top">
-                <div class="profile">
-                  <div class="profile-img">
-                    <img src="img/profileb.jpeg" alt="">
-                  </div>
-                  <div class="profile-name">
-                    <strong>Jamal</strong>
-                  </div>
-                </div>
-                <div class="bintang">
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                  <i class='bx bxs-star'></i>
-                </div>
-              </div>
-              <div class="komen-bot">
-                <p>Sangat bagus, cepat, bersih, dan efektif. Cocok untuk orang yang sibuk dalam membersihkan rumah</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="buttom mt-5">
-        <button type="button" class="btn btn-secondary">Selengkapnya</button>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
     <!-- Review -->
@@ -638,6 +771,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
